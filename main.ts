@@ -17,7 +17,7 @@ app.use(express.static('public'));
 
 
 // Conexión a la base de datos MongoDB
-const dbURI = 'mongodb+srv://root:robertoPass@cluster0.nwto2.mongodb.net/myAgenda?retryWrites=true&w=majority';
+const dbURI = "";
 mongoose.connect(dbURI);
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'Error de conexión a la base de datos:'));
