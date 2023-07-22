@@ -1,0 +1,10 @@
+POST http://localhost:3000/api/contacts
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "phone": "555-1234",
+  "mobile": "666-5678",
+  "email": "john@example.com",
+  "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQE..."
+}
